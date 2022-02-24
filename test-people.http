@@ -1,9 +1,9 @@
-GET http://localhost:3333/jokes
+GET http://localhost:3333/people
 ###
 GET http://localhost:3333/jokes/6217723b04728287ae21348d
 ###
 
-POST http://localhost:3333/jokes/
+POST http://localhost:3333/people/
 Content-Type: application/json
 
 {
@@ -12,7 +12,7 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:3333/jokes/6217723b04728287ae21348d
+PATCH http://localhost:3333/people/1
 Content-Type: application/json
 
 {
@@ -20,6 +20,6 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3333/jokes/6217723b04728287ae21348d
+DELETE http://localhost:3333/people/6217723b04728287ae21348d
 
     
